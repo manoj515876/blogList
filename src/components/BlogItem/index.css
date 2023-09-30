@@ -1,0 +1,13 @@
+.blog-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 600px;
+  max-width: 900px;
+}
+
+@media Screen and (max-width: 768px) {
+  .blog-card {
+    min-width: 400px;
+  }
+}
